@@ -1,0 +1,10 @@
+.copy-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.copy {
+    color: #fff;
+}

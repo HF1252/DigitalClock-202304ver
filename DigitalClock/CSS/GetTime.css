@@ -1,0 +1,53 @@
+.Attendance-Container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#app1,
+#app2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-btn {
+    background: #10101e;
+    color: #2e94e3;
+    width: 8rem;
+    height: 3rem;
+    cursor: pointer;
+    border: 0.15rem solid #2e94e3;
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+.time-btn:hover {
+    background: #2e94e3;
+    color: #fff;
+}
+
+.join-time,
+.logout-time {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+.DeletBtn {
+    background: #10101e;
+    color: #2e94e3;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    border: 0.15rem solid #2e94e3;
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+.DeletBtn:hover {
+    background: #2e94e3;
+    color: #fff;
+}
